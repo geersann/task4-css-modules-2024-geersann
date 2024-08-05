@@ -1,9 +1,9 @@
 import React from 'react';
-import './Button.css'
+import styles from './Button.module.css';
 
 function Button() {  
   return (
-    <button className='active'>
+    <button className={styles.active}>
       Click Me
     </button>
   )
